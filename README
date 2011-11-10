@@ -1,0 +1,30 @@
+I'm tired of moving windows around.  Really, really tired.
+
+I recently set up Awesome on my Debian computer.  It's awesome.  It
+takes care of all of the crap (read: window management) that I had to do
+all day long, wasting my time and energy keeping windows in usable positions.
+
+I rapidly grew to hate using my Mac for any real development, except that...
+it's the only place I can use Xcode, and I just started iOS development.
+
+So, at an impasse, I came up with the idea of using AppleScript to keep my
+windows in line.  Some quick googling found an application called
+FastScripts(www.red-sweater.com/fastscripts), which supports binding applescripts
+to keys commands.  I personnaly keep mine set up like this:
+
+option-w: Full Screen
+option-q: Tile Current Application
+option-a: Tile all apps, dock current app on left
+option-s: Tile all apps
+option-d: Tile all apps, dock current app on right.
+
+There are a couple of issues with the scripts right now:
+	- Carbon support
+	- Java support (Same issue?)
+
+Older applications (or Eclipse, or Spotify) spit out an error dialog, but everything
+up to those will tile properly.
+
+Hope you enjoy these, and please, feel free to update them!
+
+-Sam
