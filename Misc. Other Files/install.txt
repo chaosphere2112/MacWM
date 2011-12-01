@@ -1,0 +1,5 @@
+If you want to get setup with the scripts super fast, here's the how-to!
+
+Place the MacWM folder in ~/Library/Scripts (you may have to make the Scripts directory).
+
+Install Quicksilver (http://www.blacktree.com/), and if you don't have any triggers set up (which you won't if it's a clean install), navigate to "~/Library/Application\ Support/Quicksilver" in the Terminal and type "ln -s ~/Library/Scripts/MacWM/Misc.\ Other\ Files/Triggers.plist" .
